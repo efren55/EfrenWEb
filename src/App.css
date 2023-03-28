@@ -1,0 +1,33 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+
+html,body{
+    font-family: 'Secular One', sans-serif;
+}
+
+
+a{
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+} 
+
+
+.App{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap;  */
+    justify-content: center;
+    text-align: center;
+    /* font-family: 'Secular One', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}

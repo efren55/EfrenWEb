@@ -1,0 +1,340 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap'); */
+
+
+/*/////SOBRE MI//////*/
+.contenedor-sobremi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 720px;
+    width: 1250px;
+    margin: 40px 0 50px 0;
+}
+
+
+/*/////FOTOGRAFIA/////*/
+.contenedor-foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px; /*400px*/
+    height: 680px;
+    margin: 0 auto 0 auto; /*120px*/
+    border-radius: 25px;
+    background-color: #008a73;
+
+    box-shadow: inset 8px 9px 20px -2px #00423787, inset -6px -6px 20px -5px #b4b4b4;
+}
+
+.efren-img{
+    display: block;
+    width: 330px; /*330px 21vw*/
+    margin: auto;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 6px 5px 15px 5px rgba(0, 0, 0, 0.344), -6px -6px 10px -1px rgba(255, 255, 255, 0.099);
+}
+
+.contenedor-imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00806a;
+    /* background-color: #008086; */
+    margin: 0 0 20px 0;
+    height: 160px;
+    border-radius: 25px;
+    width: 330px; /*330px 21vw*/
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.2),-6px -6px 10px -1px rgba(255, 255, 255, 0.105);
+}
+
+.imagen-chica{
+    width: 120px;
+    height: 130px;
+    margin: auto 8px auto 8px;
+    border-radius: 25px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.077);
+
+}
+
+
+/*/////AJUSTE DE BIOGRAFIA////*/
+.contenedor-bio{
+    display: flex;
+    flex-direction: column;
+    width: 350px; /*350px*/
+    margin: 0 auto 0 auto;
+}
+
+.contenedor-ajuste{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ajuste-bio{
+    font-size: 12px;
+    font-weight: bolder;
+    color: rgb(46, 46, 46);
+
+    text-align: start;
+    font-family: 'Secular One', sans-serif;
+}
+
+
+/*/////////TEXTO BIOGRAFIA//////*/
+.contenedor-texto{
+    display: block;
+    /* margin: auto auto auto auto; */
+    height: 600px;
+    width: 700px;
+    margin: 0 auto 0 auto ;
+}
+
+.texto{
+    height: auto;
+    width: auto;
+    margin: 50px auto 0 auto;
+
+}
+
+.info-texto{
+    text-align: center;
+    font-size:larger;
+    font-weight:100;
+   
+}
+
+
+/*/////CONTACTO////*/
+.ajuste-contacto{
+    font-size: 12px;
+    font-weight: bolder;
+    color: rgb(46, 46, 46);
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+}
+
+
+@media(max-width:1200px){
+    .contenedor-sobremi{
+        align-items: center;
+        height: 980px;
+        /* width: 980px; */
+        width: 100%;
+        margin: 0px auto 50px auto;
+    }
+
+    .contenedor-foto{
+        width: 30vw; /*400px*/
+        height: 650px;
+        margin: 0 auto 0 auto; /*120px 2px*/
+    }
+
+    .contenedor-texto{
+        display: block;
+        height: 800px;
+        width: 45vw;
+        margin: 0 auto 0 auto ;
+    }
+
+    .efren-img{
+        width: 25vw; /*300px*/
+        margin: auto;
+        height: auto;
+        border-radius: 25px;
+    }
+    
+    .contenedor-imagenes{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 0 23px 0;
+        height: 160px;
+        width: 26vw; 
+    }
+
+
+    .imagen-chica{
+        width: 11vw;
+        height: 16vh;
+        margin: auto auto auto auto;
+        border-radius: 25px;
+        box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.077);
+    }
+
+}
+
+
+@media(max-width:950px){
+    .contenedor-sobremi{
+        display: flex;
+        flex-direction:column-reverse;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+        margin: 60px 0 170px 0;
+    }
+
+    /*FOTO*/
+    .contenedor-texto{
+        display: block;
+        /* margin: auto auto auto auto; */
+        height: auto;
+        width: auto;
+        margin: 0 80px 0 80px ;
+    }
+
+    .contenedor-bio{
+        width: 300px;
+    }
+
+    
+    .texto{
+        height: auto;
+        width: auto; 
+        margin: 50px 2px 0 2px;
+    }
+
+    /*/////FOTOGRAFIA/////*/
+    .contenedor-foto{
+        /**/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /**/
+        width: 90vw; /*400px 50vw*/
+        height: 80vh; /*650px 110vh 75vh*/
+        margin: 120px auto 0 auto;
+    }
+
+
+    .efren-img{
+        width: 350px; /*300px*/
+        margin: auto;
+        height: auto;
+    }
+    
+    .contenedor-imagenes{
+        /**/
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /**/
+        margin: 0 auto 0px auto; /*0 0 40px 0*/
+        height: 350px; /*160px 22vh*/
+        width: 190px; /*40vw*/ 
+    }
+
+    .imagen-chica{
+        width: 150px; /*14vw*/
+        height: 150px; /*17vh*/
+        margin: auto auto auto auto;
+        box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.077);
+    }
+}
+
+
+@media(max-width:700px){
+    /*FOTO*/
+    .contenedor-texto{
+        display: block;
+        /* margin: auto auto auto auto; */
+        height: auto;
+        width: auto;
+        margin: 0 80px 0 80px ;
+    }
+
+    /*/////FOTOGRAFIA/////*/
+    .contenedor-foto{
+        /**/
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        /**/
+        width: 93vw; /*400px 50vw 90vw*/
+        height: 80vh; /*650px 110vh*/
+        margin: 120px auto 0 auto;
+    }
+
+
+    .efren-img{
+        width: 350px; /*300px*/
+        margin: auto;
+        height: auto;
+    }
+    
+    .contenedor-imagenes{
+        /**/
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /**/
+        margin: 0 auto 0px auto; /*0 0 40px 0*/
+        height: 350px; /*160px 22vh*/
+        width: 190px; /*40vw*/ 
+    }
+
+    .imagen-chica{
+        width: 150px; /*14vw*/
+        height: 150px; /*17vh*/
+        margin: auto auto auto auto;
+    }
+}
+
+
+@media(max-width:630px){
+    /*/////FOTOGRAFIA/////*/
+    .contenedor-foto{
+        /**/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        /**/
+        width: 85vw; /*400px 50vw*/
+        height: 110vh; /*650px 110vh*/
+        margin: 120px auto 0 auto;
+    }
+
+    .efren-img{
+        display: block;
+        width: 75vw; /*300px*/
+        margin: auto;
+        height: auto;
+    }
+    
+    .contenedor-imagenes{
+        /**/
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /**/
+        margin: auto; /*0 0 40px 0*/
+        height: 25vh; /*160px 22vh*/
+        width: 75vw; /*40vw*/ 
+    }
+
+    .imagen-chica{
+        width: 29vw; /*14vw*/
+        height: 19vh; /*17vh*/
+        margin: auto auto auto auto;
+    }
+
+}
+
+@media(max-width:500px){
+    .contenedor-foto{
+        width: 85vw; /*400px 50vw*/
+        height: 110vh; /*650px 110vh*/
+        margin: 120px auto 0 auto;
+    }
+
+}

@@ -1,0 +1,97 @@
+.contenedor-botones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 10px 0;
+}
+
+.contenedor-contacto{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto 0 auto;
+    width: 350px;
+}
+
+.contacto-botones{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.boton-info{
+    width: 30px;
+    border-radius: 200px;
+    height: 30px;
+    border-style:none ;
+    /* box-shadow: 1px 1px 1px #999;   */
+    box-shadow: 6px 6px 15px -1px rgba(0, 0, 0, 0.492),
+    -6px -6px 15px -1px rgba(207, 207, 207, 0.178);
+    cursor: pointer;
+}
+
+.boton-activo{
+    background-color: #008a73;
+    /* background-color: #00848a; */
+}
+
+.boton-desactivado{
+    /* background-color: white; */
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+
+.boton-contacto{
+    background-color: #008a73;
+    /* background-color: #00848a; */
+    /* background-color: #084496; */
+    width: 60px;
+    border-radius: 200px;
+    height: 60px;
+    border-style: none;
+    margin: 25px 0 0 0;
+    /* box-shadow: 1px 1px 1px #999;   */
+    cursor: pointer;
+    box-shadow: 3px 4px 15px -1px rgba(0, 0, 0, 0.656),
+    -6px -6px 15px -1px rgba(207, 207, 207, 0);
+}
+
+/*
+.boton-contacto:hover{
+
+}*/
+
+.github{
+    background-image: url('../img/icon-github.png');
+    background-size:45px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.linkedin{
+    background-image: url('../img/icon-linkedin.png');
+    background-size:40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gmail{
+    background-image: url('../img/icon-gmail.png');
+    background-size:40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media(max-width:600px){
+
+    .contenedor-contacto{
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto 0 auto;
+        width: 350px;
+    }
+
+
+}

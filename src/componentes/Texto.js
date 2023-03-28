@@ -1,0 +1,6 @@
+export const infoEfren = {
+    textoUno: 'Hola! Mi nombre es Efren Mariscal y tengo 25 años. Actualmente resido en la ciudad de Ensenada.',
+    textoDos:'Hola! Mi nombre es Efren Mariscal y tengo 25 años. Actualmente estoy haciendo los tramites para mi titulación como Bioingeniero. Mis estudios los realice en la Universidad Autonoma de Baja California (2017-2022).' ,
+    textoTres :'Hola! Mi nombre es Efren Mariscal y tengo 25 años. Actualmente estoy haciendo los tramites para mi titulación como Bioingeniero. Mis estudios los realice en la Universidad Autonoma de Baja California (2017-2022). Como parte del plan de estudio de mi carrera, lleve materias sobre el análisis y tratamiento de datos, en donde utilizamos el lenguaje R. Esto me encanto y me llevo a querer saber mas acerca del mundo de la programación. Supe que era un  mundo gigantesco, con muchas variantes y todas ellas super interesantes y atractivas. Estaba motivado a seguir estudiando ciencia de datos pero ahora utilizando Python, o desarrollo BackEnd utilizando Python y Django. Tiempo después empecé a utilizar HTML por pura curiosidad y me encanto plasmar y visualizar los cambios de manera gráfica en la pantalla de mi ordenador. Asi que me decidi por el desarrollo FrontEnd y aprender HTML, CSS y JavaScript.' ,
+     
+}

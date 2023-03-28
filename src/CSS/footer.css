@@ -1,0 +1,90 @@
+.titulo-apartado{
+    color: white;
+    
+}
+
+
+
+
+.contenedor-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    margin: 50px 0 0px 0 ;
+    background: linear-gradient(145deg, rgba(0, 140, 117, 0.97) 33%, rgb(30, 129, 113) 78%, rgb(51, 143, 128) 100%);
+    box-shadow: inset 10px 10px 50px -15px #aeaeae54, inset -6px -6px 15px -25px #d0d0d0;
+
+}
+
+/* .setup{
+    height: 500px;
+    width: 500px;
+    margin: -355px 0 0 0;
+    filter: drop-shadow(10px 5px 1px rgba(0, 0, 0, 0.299));
+} */
+
+.setup{
+    height: auto;
+    width: 200px;
+    margin: 0 20px 0 0px;
+    filter: drop-shadow(6px 10px 1px rgba(0, 0, 0, 0.299));
+}
+
+.freelancer{
+    height: 350px;
+    width: 350px;
+    margin: -370px 0 0 0;
+    filter: drop-shadow(6px 1px 1px rgba(0, 0, 0, 0.311));
+
+}
+
+.curriculum{
+    /* margin: auto auto auto auto; */
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border-style: none;
+    background-image: url('../img/cv_icon.png');
+    background-size:100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #008a73;
+    margin: 0 0 0 0px;
+    /* background-color: #00848a; */
+    cursor: pointer;
+    /* box-shadow: 3px 3px 3px #999;   */
+    /* box-shadow: 6px 6px 15px -1px rgba(0, 0, 0, 0.627), -6px -6px 15px -1px rgba(192, 192, 192, 0.395); */
+    box-shadow: inset 12px 15px 22px -9px #007562dc,inset -10px -14px 14px -9px #00947b;
+}
+
+@media(max-width:600px){
+
+    .contenedor-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 200px;
+        margin: 0px 0 0px 0 ;
+        background: linear-gradient(145deg, rgba(0, 140, 117, 0.97) 33%, rgb(30, 129, 113) 78%, rgb(51, 143, 128) 100%);
+        box-shadow: inset 10px 10px 50px -15px #aeaeae54, inset -6px -6px 15px -25px #d0d0d0;
+    }
+
+}
+
+@media(max-width:400px){
+    .setup{
+        width: 150px;
+        margin: 0 20px 0 0px;
+    }
+
+    .curriculum{
+        width: 125px;
+        height: 125px;
+        background-size:83px;
+    }
+}

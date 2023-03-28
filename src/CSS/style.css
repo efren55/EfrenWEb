@@ -1,0 +1,178 @@
+.header{
+    /*display: grid;
+    grid-template-columns: 4fr 1fr;
+    justify-items: center;*/
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00848a;
+    box-shadow: 5px 5px 5px #999;  
+    height: 720px;
+    width: 100%;
+
+}
+
+.contenedor-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 10vh; */
+    /* margin-top: 90px; */
+    margin: auto;
+
+}
+
+/* -------------NOOOOOO------------
+ .contenedor-proyectos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .proyectos-contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 500px;
+    margin: 0 0 150px 0;
+} */
+
+/* .contenedor-proyectos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}  */
+
+.contenedor-proyectos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    margin: 0 0 250px 0;
+}
+.titulo-proyecto{
+    font-family: 'Lilita One', cursive;
+    font-size: 90px;
+    font-weight: bold;
+    color: #003E3A; 
+    text-shadow: 1px 1px 2px black, 2px 2px 4px gray;
+    margin: 0 0 80px 0;
+}
+
+.proyectos-contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    margin: 0 0 0px 0;
+}
+
+.sunshine,.aia{
+    width: auto;
+    height:25vh;
+    border-radius: 170px;
+    filter: drop-shadow(10px 15px 7px rgba(0, 0, 0, 0.225));
+}
+
+.contenedor-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 40px 0 50px 0;
+}
+
+@media(max-width:829px){
+    .contenedor-proyectos{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 550px 0;
+    }
+    .proyectos-contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .titulo-proyecto{
+        margin: 0 0 350px 0;
+    }
+
+}
+
+
+
+@media(max-width:630px){
+
+    .header{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        background-color: #00848a;
+        /* box-shadow: 10px 10px 10px #999;   */
+        height: 100vh;
+        width: 100%;
+        /* margin: 0 0 50px 0; */
+    }
+
+    .contenedor-logo{
+        width: 100%;
+        height: auto;
+        margin: auto auto auto auto;
+    }
+
+    .contenedor-body{
+        width: 100%;
+        height: auto;
+        margin: 40px 0 0px 0;
+    }
+
+    /*///////////////PROYECTO//////////////////*/
+    
+    .contenedor-proyectos{
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+        width: 350px;
+        height: auto;
+        margin: 0 0 50px 0;
+    }
+    .titulo-proyecto{
+        font-size: 75px;
+        margin: 0 0 80px 0;
+    }
+
+    .proyectos-contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .aia{
+        width: 360px; /*85vw 60vw*/
+        height:auto;
+        border-radius: 170px;
+        margin: 0 auto 0 auto;
+    }
+
+    .sunshine{
+        width: auto;
+        height:20vh;
+        margin: 0 auto 0 auto;
+    }
+
+}
+
